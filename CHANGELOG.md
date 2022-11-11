@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## 0.6.3 (Nov 12th, 2022)
+
+### Changes
+
+* Add `__getattr__` func to `interfaces.Record` class.
+
 ## 0.6.2 (Nov 7th, 2022)
 
 ### Changes

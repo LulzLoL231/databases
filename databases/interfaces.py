@@ -76,3 +76,6 @@ class Record(Sequence):
 
     def __getitem__(self, key: typing.Any) -> typing.Any:
         raise NotImplementedError()  # pragma: no cover
+
+    def __getattr__(self, key: typing.Any) -> typing.Any:
+        raise NotImplementedError()  # pragma: no cover
